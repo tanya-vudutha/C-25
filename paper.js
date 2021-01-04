@@ -12,7 +12,7 @@ class Paper
         this.x=x;
         this.y=y;
         this.r=r;
-        this.paper=Bodies.circle(this.x, this.y, this.r/2, options);
+        this.paper=Bodies.circle(this.x, this.y, this.r/2, a);
         World.add(world, this.paper);
     }
 
